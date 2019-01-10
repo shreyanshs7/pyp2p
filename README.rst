@@ -62,7 +62,7 @@ This will create a new listening server on port 44444, bound to listen for conne
 ========
 Bob node
 ========
-This code will make a connection to the Alice node and repeatedly send her the word test. Note how they're both on different interfaces, with completely different IPs. This is necessary for connecting to nodes on the same computer as the library doesn't allow the Net class to connect to itself itself when running in P2P mode (type="p2p" for the Net class.) If you want to be able to make duplicate connections to nodes on the same interface then specify the type as "direct" which will make testing code easier. Note that type is "p2p" by default.
+This code will make a connection to the Alice node and repeatedly send her the word test. Note how they're both on different interfaces, with completely different IPs. This is necessary for connecting to nodes on the same computer as the library doesn't allow the Net class to connect to itself when running in P2P mode (type="p2p" for the Net class.) If you want to be able to make duplicate connections to nodes on the same interface then specify the type as "direct" which will make testing code easier. Note that type is "p2p" by default.
 
 .. code:: python
 
